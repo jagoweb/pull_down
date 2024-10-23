@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  padding-top: 20px;
+}
+.showModalBtn {
+  border: 1px solid #ddd;
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.modal {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  user-select: none;
+  bottom: 0;
+}
+.modalHeader {
+  padding: 20px;
+  background-color: #bbb;
+}
+.modalBody {
+  height: 100%;
+  padding: 20px;
+  background-color: #ddd;
+}
